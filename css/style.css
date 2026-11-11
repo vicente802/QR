@@ -1,0 +1,111 @@
+body {
+    background-color: gray;
+}
+.content{
+    width: 100%;
+}
+.card {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.card .card-body {
+    box-shadow: 0px 0px 20px 2px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: white;
+    width: 320px;
+    height: fit-content;
+    text-align: unset;
+    white-space: pre-wrap;
+    font-family: monospace;
+}
+.btn{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+.download-btn button,.print-btn button{
+    padding: 20px;
+    margin:10px;
+    width: 162px;
+    box-shadow: 0px 0px 5px 0.1px black;
+
+}
+.download-btn button{
+    background: rgb(0, 132, 255);
+    color:white;
+    cursor: pointer;
+    outline: none;
+    border-radius: 15px;
+    font-weight:bolder;
+    border: none;
+}
+.print-btn button{
+    background:rgb(4, 155, 4);
+    color:white;
+    cursor: pointer;
+    outline: none;
+    border-radius: 15px;
+    font-weight:bolder;
+    border: none;
+}
+.print-btn button:hover{
+    background-color:  rgb(1, 124, 1);
+}
+.download-btn button:hover{
+    background-color:  rgba(38, 121, 245, 0.815);
+}
+@media print {
+  /* Reset all first */
+  * {
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  body {
+    visibility: hidden;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  /* Show ONLY the card body */
+  .card-body,
+  .card-body * {
+    visibility: visible;
+  }
+
+  .card-body {
+    position: absolute !important;
+    left: 0 !important;
+    top: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+    box-shadow: none !important;
+    background: transparent !important;
+  }
+
+  /* Page setup — adjust margins if needed */
+  @page {
+    margin: 10mm 5mm !important; /* top/bottom 10mm, left/right 5mm */
+    size: A4; /* or '80mm 200mm' for thermal receipt */
+  }
+
+  /* Prevent page breaks inside content blocks */
+  .card-body {
+    page-break-inside: avoid;
+  }
+
+  /* Remove browser default headers/footers */
+  @page :first {
+    margin-top: 0;
+  }
+}

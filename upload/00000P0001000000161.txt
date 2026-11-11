@@ -1,0 +1,52 @@
+APSOFT RETAIL MART 
+            By: Apsoft Inc.             
+          #411 Lt. Artiaga St.          
+       Corazon de Jesus, San Juan       
+     VAT Reg. No: 123-123-123-12345     
+            MIN: 1234567890             
+       BIR #: 0414-057-184515-027       
+      ACCR #: 041-007047985-000483      
+         S/N: 123456-234562-12          
+----------------------------------------
+Trans. No: 00000P0001000000161 
+Sales Invoice # 000000000155        
+Cashier: Canefield   Store: S0001
+Date: 10/23/2026   5:19:26 PM  POS: P0001
+----------------------------------------
+Description                    Amount   
+----------------------------------------
+Item No.:   10120                
+Eggs farmers pcs               185.50  V
+----------------------------------------
+Total  PH                      185.50   
+Less: Withholding TAX            0.00
+Total Amt. Due                 185.50
+Cash                           200.00   
+Change                          14.50   
+----------------------------------------
+Vatable Sales                  165.63
+VAT Amount                      19.88
+VAT Exempt Sales                 0.00
+Zero Rated Sales                 0.00
+Amount Due                     185.50
+----------------------------------------
+SOLD TO:                               
+TIN:___________________________________
+NAME:__________________________________
+ADDRESS:_______________________________
+----------------------------------------
+           This serves as your            
+              SALES INVOICE               
+                                          
+              Apsoft Inc.               
+          #441 Lt. Artiaga St.          
+       Corazon de Jesus, San Juan       
+          TIN: 007-047-985-000          
+      ACCR #: 041-007047985-000483      
+        Date Issued: 99/99/9999         
+      Effectivity Date: 99/99/9999      
+         Valid Until: 99/99/999         
+       PTU#: 0414-057-184515-027        
+        Date Issued: 99/99/9999         
+      Effectivity Date: 99/99/9999      
+T0101000000161
